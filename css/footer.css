@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    justify-content: center;
+
+}
+.footer__nav{
+    margin: 2rem;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
