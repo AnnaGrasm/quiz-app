@@ -6,6 +6,9 @@ body{
     line-height: 1.5rem;
     margin: 0;
     background-color: var(--third-color);
+    padding-top: 100px;
+    padding-bottom: 50px;
+
 }
 img{
     width: 4rem;

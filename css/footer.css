@@ -1,13 +1,22 @@
 .footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+   width: 100%;
+    position: fixed;
+    bottom: 0;
+    
 
 }
+
 .footer__nav{
-    margin: 2rem;
-    width: 70%;
+    height: 6rem;
+    width: 100%;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
+    background-color: var(--fourth-color);
     
 }
+
