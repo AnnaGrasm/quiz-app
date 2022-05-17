@@ -16,13 +16,15 @@
             <main class="card__main">
         
                 <section class="card__content">
-                    <img data-js="js-bookmarker" class="card__bookmark-icon" src="./images/bookmark-active.svg" alt="">
+                    <img class="card__bookmark-icon--active" data-js="js-bookmark" src="./images/bookmark-active.svg" alt="Add bookmark">
               <h2 class="card__heading">Question</h2>
               <p class="card__question">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, fugit?</p> 
-              <button class="card-button__answer" data-js="button-answer">show answer</button>
+              <button class="card-button" data-js="button-show">show answer</button>
+             
               
               
-              <div class="card__answer--display-none" data-js="text-answer">
+              <div class="card-display--none" data-js="text-answer">
+                  <button class="card-button" data-js="button-hide">Hide answer</button>
               <h3 class="card-answer__heading">Answer</h3>
               <p class="card-answer__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, fugit?</p> 
                   </div>
@@ -36,7 +38,7 @@
                   <li class="card__tags__item">sit</li>
                   
               </ul>  
-          </section>   
+          </section> 
          
 
         
@@ -47,10 +49,10 @@
 
    
         <nav class="footer__nav">
-            <a class="footer__nav__item" href="./index.html"><img src="./images/home.svg" alt="home"></a>
-            <a class="footer__nav__item" href="./bookmark.html"><img src="./images/bookmark-active.svg" alt="bookmark"></a>
-            <a class="footer__nav__item" href="./create.html"><img src="./images/create.svg" alt="create"></a>
-            <a class="footer__nav__item" href="./profile.html"><img src="./images/profile.svg" alt="profile"></a>
+            <a href="./index.html"><img class="footer__nav__item"  src="./images/home.svg" alt="home"></a>
+            <a href="./bookmark.html"><img class="footer__nav__item"  src="./images/bookmark-active.svg" alt="bookmark"></a>
+            <a href="./create.html"><img class="footer__nav__item"  src="./images/create.svg" alt="create"></a>
+            <a href="./profile.html"><img class="footer__nav__item"  src="./images/profile.svg" alt="profile"></a>
              
         </nav>
         
