@@ -18,15 +18,17 @@
     
 }
 .card__bookmark-icon{
+    width: 4rem;
     position: absolute;
     top: -20px;
     right: 0;
     filter: invert(70%) ;
     cursor: pointer;
-    border: red 2px solid;
+    
     
 }
 .card__bookmark-icon--active{
+    width: 4rem;
     position: absolute;
     top: -20px;
     right: 0;
@@ -49,12 +51,14 @@
  .card-button{
      padding: .7rem;
      margin: 1rem;
-     background-color: rgb(53, 140, 56);
+     background-color: rgb(25, 175, 117);
      text-transform: uppercase;
+     border-radius: 10px;
  }
  .card-button:hover{
-     font-size: 1rem;
-     background-color: rgb(82, 176, 82);;
+     font-weight: bold;
+     font-size: .9rem;
+     background-color: rgb(19, 130, 87);
  }
 
  .card-display--none{
@@ -65,7 +69,7 @@
      flex-direction: column;
      align-items: center;
      justify-content: space-around;
-     border: var(--primary-color) 2px solid;
+     background-color: var(--fourth-color);
      color: white;
      text-align: center;
      border-radius: 1rem;
