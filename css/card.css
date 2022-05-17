@@ -23,6 +23,7 @@
     right: 0;
     filter: invert(70%) ;
     cursor: pointer;
+    border: red 2px solid;
     
 }
 .card__bookmark-icon--active{
@@ -30,8 +31,10 @@
     top: -20px;
     right: 0;
     cursor: pointer;  
+    filter: invert(1%) ;
     
 }
+
  .card__heading{
      color: white;
      text-transform: uppercase;
@@ -43,22 +46,25 @@
      
     
  }
- .card-button__answer{
+ .card-button{
      padding: .7rem;
      margin: 1rem;
      background-color: rgb(53, 140, 56);
      text-transform: uppercase;
  }
- .card-button__answer:hover{
+ .card-button:hover{
      font-size: 1rem;
      background-color: rgb(82, 176, 82);;
  }
 
- .card__answer--display-none{
+ .card-display--none{
      display: none;
  }
  .card__answer--display{
-     display: block;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
      border: var(--primary-color) 2px solid;
      color: white;
      text-align: center;

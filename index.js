@@ -1,14 +1,20 @@
-const button = document.querySelector('[data-js="button-answer"]');
+const buttonShow = document.querySelector('[data-js="button-show"]');
+const buttonHide = document.querySelector('[data-js="button-hide"]');
 const answer = document.querySelector('[data-js="text-answer"]');
-const bookmark = document.querySelector('[data-js="js-bookmark"]')
 
-        function onButtonClick (){
-            answer.classList.toggle('card__answer--display')
-        }
 
-        button.addEventListener("click", onButtonClick)
 
-        function onBookmark (){
-            bookmark.classList.add('card__bookmark-icon--active')
-        }
-        bookmark.addEventListener("click", onBookmark)
+       
+
+        buttonShow.addEventListener("click", () =>{
+            answer.classList.add('card__answer--display');
+            buttonShow.classList.add('card-display--none') 
+        })
+
+        buttonHide.addEventListener("click", () => {
+            answer.classList.remove('card__answer--display');
+            buttonShow.classList.remove('card-display--none') 
+        })
+
+       
+       
