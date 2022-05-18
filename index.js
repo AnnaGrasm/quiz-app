@@ -41,6 +41,8 @@ const profileSite = document.querySelector('[data-js="profile-js"]');
        //sections
        homeIcon.addEventListener('click', () =>{
         bookmarkSite.classList.remove("section--active");
+        createSite.classList.remove("section--active");
+        profileSite.classList.remove("section--active");
         homeSite.classList.add("section--active");
         
         
