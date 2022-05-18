@@ -12,8 +12,15 @@
     
 }
 
-.footer__nav__item{
+.nav-item__icon{
+    cursor: pointer;
     width: 4rem;
+    filter: invert(100%);
+}
+
+.nav-item__icon--active{
+    cursor: pointer;
+    filter: invert(1%);
 }
 
 

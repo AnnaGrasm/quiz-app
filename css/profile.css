@@ -13,10 +13,15 @@
     margin: 2rem;
     padding: 1rem;
     display: flex;
+    flex-flow: column wrap;
 
     background-color: var(--secondary-color);
 }
 
 .profile__list{
     list-style: none;
+}
+
+.profile__main-information{
+    display: flex;
 }

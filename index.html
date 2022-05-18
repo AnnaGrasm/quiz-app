@@ -9,13 +9,13 @@
     <title>Quiz</title>
 </head>
 <body>
-
-<header class="heading">
+<!--HOME-->
+<div class="home" data-js="home-js">
+<div class="heading">
     <h1 >Quiz App</h1>
-</header>
+</div>
   
-    <main class="card__main">
-        
+    <div class="card__main">
     <section class="card__content">
               <img class="card__bookmark-icon" data-js="js-bookmark" src="./images/bookmark-active.svg" alt="Add bookmark">
         <h2 class="card__heading">Question</h2>
@@ -66,14 +66,112 @@
       
   </ul>  
 </section> 
-    </main>
+    </div>
+
+</div>
+<!--BOOKMARK-->
+<div class="bookmark" data-js="bookmark-js">
+<div class="heading">
+    <h1>Bookmarks</h1>
+</div> 
+        
+        <div class="card__main">
+    
+            <section class="card__content">
+                <img class="card__bookmark-icon--active" data-js="js-bookmark" src="./images/bookmark-active.svg" alt="Add bookmark">
+          <h2 class="card__heading">Question</h2>
+          <p class="card__question">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, fugit?</p> 
+          <button class="card-button" data-js="button-show">show answer</button>
+         
+          
+          
+          <div class="card-display--none" data-js="text-answer">
+              <button class="card-button" data-js="button-hide">Hide answer</button>
+          <h3 class="card-answer__heading">Answer</h3>
+          <p class="card-answer__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, fugit?</p> 
+              </div>
+  
+          
+          
+          <ul class="card__tags">
+              <li class="card__tags__item">Lorem</li>
+              <li class="card__tags__item">Ipsum</li>
+              <li class="card__tags__item">dolor</li>
+              <li class="card__tags__item">sit</li>
+              
+          </ul>  
+      </section> 
+        </div>
+    </div>
+
+
+    <!--Create-->
+<div class="create" data-js="create-js">
+    <div class="heading">
+        <h1 >Create</h1>
+    </div>
+            
+            <div class="create__main">
+        
+    <section class="form__content">
+    <h2 class="create-content__headline">here you can create a question and the answer</h2>
+    <p></p>
+                  
+                   
+
+
+   <form aria-labelledby="headline" class="form__texterea">
+       <div class="form__input">
+     <label for="question-area">Question</label>
+     <textarea id="question-area" name="question" rows="5" cols="30" placeholder="question"></textarea>
+    </div>
+    <div class="form__input">
+     <label for="answer-area">Answer</label>
+     <textarea id="answer-area" name="answer" rows="5" cols="30" placeholder="answer"></textarea>
+    </div>
+    <input type="submit" name="" class="form__submit" id="">
+     </form>
+            
+    </section>
+    </div>
+</div>
+
+<!--Profile-->
+
+<div class="profile" data-js="profile-js">
+<div class="heading">
+    <h1>Profile</h1>
+</div>
+
+<div class="profile__main">
+<section class="profile__content">
+<div class="profile__main-information">
+<img class="profile__picture" src="./images/CardPicture.jpg" alt="">
+
+<ul class="profile__list">
+    <li>Name: Alex Doe</li>
+    <li>User Name: Alexi</li>
+    <li>E-Mail: doe.alex@gmail.com</li>
+</ul>
+</div>
+<div class="profile__side-information">
+<h2>About me</h2>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat assumenda accusantium maxime, repellendus quas rerum perspiciatis illum itaque maiores eligendi.</p>
+</div>
+  
+
+</section>
+
+</div>
+</div>
+
 
 
         <nav class="footer__nav">
-                <a href="./index.html"><img class="footer__nav__item" src="./images/home-active.svg" alt="home"></a>
-                <a href="./bookmark.html"><img class="footer__nav__item" src="./images/bookmark.svg" alt="bookmark"></a>
-                <a href="./create.html"><img class="footer__nav__item" src="./images/create.svg" alt="create"></a>
-                <a href="./profile.html"><img class="footer__nav__item" src="./images/profile.svg" alt="profile"></a>
+            <img class="nav-item__icon" data-js="nav__icon-home" src="./images/home.svg" alt="home">
+            <img class="nav-item__icon" data-js="nav__icon-bookmark" src="./images/bookmark.svg" alt="bookmark">
+            <img class="nav-item__icon" data-js="nav__icon-create" src="./images/create.svg" alt="create">
+            <img class="nav-item__icon" data-js="nav__icon-profile" src="./images/profile.svg" alt="profile">
      
         </nav>
         
