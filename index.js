@@ -23,7 +23,8 @@ const profileSite = document.querySelector('[data-js="profile-js"]');
 
         buttonShow.addEventListener("click", () =>{
             answer.classList.add('card__answer--display');
-            buttonShow.classList.add('card-display--none') 
+            buttonShow.classList.add('card-display--none');
+
         })
 
         buttonHide.addEventListener("click", () => {
@@ -31,15 +32,43 @@ const profileSite = document.querySelector('[data-js="profile-js"]');
             buttonShow.classList.remove('card-display--none') 
         })
 
+
+       
        bookmark.addEventListener('click', () => {
            bookmark.classList.toggle('card__bookmark-icon--active')
        })
        
+       //sections
        homeIcon.addEventListener('click', () =>{
-        homeSite.classList.toggle("home")
+        bookmarkSite.classList.remove("section--active");
+        homeSite.classList.add("section--active");
+        
+        
+        
+
        })
 
        bookmarkIcon.addEventListener('click', () =>{
-        bookmarkSite.classList.add("bookmark")
+        homeSite.classList.remove("section--active");
+        createSite.classList.remove("section--active");
+        profileSite.classList.remove("section--active");
+        bookmarkSite.classList.add("section--active");
+
        })
+
+       createIcon.addEventListener('click', () => {
+        homeSite.classList.remove("section--active");
+        bookmarkSite.classList.remove("section--active");
+        profileSite.classList.remove("section--active");
+        createSite.classList.add("section--active");
+       })
+
+       profileIcon.addEventListener('click', () => {
+        homeSite.classList.remove("section--active");
+        bookmarkSite.classList.remove("section--active");
+        createSite.classList.remove("section--active");
+        profileSite.classList.add("section--active");
+       })
+
+
 
