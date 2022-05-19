@@ -1,9 +1,10 @@
- .home, .bookmark, .create, .profile{
-    display: none;
+.home,
+.bookmark,
+.create,
+.profile {
+  display: none;
 }
 
-.section--active{
-    display: block;
+.section--active {
+  display: block;
 }
-
-

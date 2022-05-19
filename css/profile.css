@@ -1,27 +1,26 @@
-.profile__main{
-    margin-bottom: 7rem;
+.profile__main {
+  margin-bottom: 7rem;
 }
 
-.profile__picture{
-    height: 7rem;
-    width: 7rem;
-    background-size: contain;
-    border-radius: 50%;
+.profile__picture {
+  height: 7rem;
+  width: 7rem;
+  background-size: contain;
+  border-radius: 50%;
 }
 
-.profile__content{
-    margin: 2rem;
-    padding: 1rem;
-    display: flex;
-    flex-flow: column wrap;
-
-    background-color: var(--secondary-color);
+.profile__content {
+  margin: 2rem;
+  padding: 1rem;
+  display: flex;
+  flex-flow: column wrap;
+  background-color: var(--secondary-color);
 }
 
-.profile__list{
-    list-style: none;
+.profile__list {
+  list-style: none;
 }
 
-.profile__main-information{
-    display: flex;
+.profile__main-information {
+  display: flex;
 }
