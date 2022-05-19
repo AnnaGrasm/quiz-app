@@ -34,6 +34,6 @@
 .form__submit {
   padding: 0.7rem;
   margin: 1rem;
-  background-color: rgb(53, 140, 56);
+  background-color: rgb(53 140 56);
   text-transform: uppercase;
 }
