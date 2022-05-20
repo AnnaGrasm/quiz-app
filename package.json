@@ -10,7 +10,8 @@
     "prettier:write": "npx prettier --write .",
     "stylelint": "npx stylelint \"**/*.css\"",
     "eslint": "npx eslint \"**/*.js\"",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "build": "build --output public"
   },
   "repository": {
     "type": "git",
