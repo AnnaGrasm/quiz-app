@@ -13,9 +13,7 @@
   padding: 1rem;
   position: relative;
   background-color: var(--secondary-color);
-  box-shadow: -1px -1px 14px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: -1px -1px 14px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -1px -1px 14px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px -1px 14px 0 rgba(0 0 0 /75%);
 }
 
 .card__bookmark-icon {
@@ -50,7 +48,7 @@
 .card-button {
   padding: 0.7rem;
   margin: 1rem;
-  background-color: rgb(122, 185, 162);
+  background-color: rgb(122 185 162);
   text-transform: uppercase;
   border-radius: 10px;
 }
@@ -58,7 +56,7 @@
 .card-button:hover {
   font-weight: bold;
   font-size: 0.9rem;
-  background-color: rgb(19, 130, 87);
+  background-color: rgb(19 130 87);
 }
 
 .card-display--none {

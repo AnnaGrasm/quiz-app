@@ -9,9 +9,7 @@
   margin: 2rem;
   padding: 2rem;
   background-color: var(--secondary-color);
-  box-shadow: -1px -1px 14px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: -1px -1px 14px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -1px -1px 14px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px -1px 14px 0 rgba(0 0 0 /75%);
 }
 
 .create-content__headline {
