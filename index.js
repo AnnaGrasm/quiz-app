@@ -1,8 +1,10 @@
+import { bookmarks } from './js/bookmarks.js';
+
+bookmarks();
+
 const buttonShow = document.querySelector('[data-js="button-show"]');
 const buttonHide = document.querySelector('[data-js="button-hide"]');
 const answer = document.querySelector('[data-js="text-answer"]');
-
-const bookmark = document.querySelector('[data-js="js-bookmark"]');
 
 const homeIcon = document.querySelector('[data-js="nav__icon-home"]');
 const homeSite = document.querySelector('[data-js="home-js"]');
@@ -24,10 +26,6 @@ buttonShow.addEventListener('click', () => {
 buttonHide.addEventListener('click', () => {
   answer.classList.remove('card__answer--display');
   buttonShow.classList.remove('card-display--none');
-});
-
-bookmark.addEventListener('click', () => {
-  bookmark.classList.toggle('card__bookmark-icon--active');
 });
 
 //sections
