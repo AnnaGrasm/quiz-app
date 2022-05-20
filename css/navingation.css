@@ -8,3 +8,21 @@
 .section--active {
   display: block;
 }
+
+/* Exersice */
+
+.first-section {
+  margin: 3rem;
+}
+
+.first {
+  background-color: red;
+}
+
+.first--change {
+  background-color: blue;
+}
+
+.first-text--none {
+  display: none;
+}

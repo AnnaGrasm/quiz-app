@@ -44,3 +44,19 @@ profileIcon.addEventListener('click', () => {
   createSite.classList.remove('section--active');
   profileSite.classList.add('section--active');
 });
+
+/* Exersice */
+
+function button() {
+  const AllfirstButton = document.querySelectorAll('.first');
+
+  const text = document.querySelectorAll('.first-text');
+
+  AllfirstButton.forEach((firstButton, index) => {
+    firstButton.addEventListener('click', () => {
+      firstButton.classList.toggle('first--change');
+      text[index].classList.toggle('first-text--none');
+    });
+  });
+}
+button();

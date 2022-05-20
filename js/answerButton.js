@@ -1,25 +1,17 @@
 export function answerButton() {
   const allButtonShow = document.querySelectorAll('[data-js="button-show"]');
 
-  const answer = document.querySelector('[data-js="text-answer"]');
+  const answer = document.querySelectorAll('[data-js="text-answer"]');
 
-  allButtonShow.forEach(buttonShow => {
+  allButtonShow.forEach((buttonShow, index) => {
     buttonShow.addEventListener('click', () => {
-      answer.classList.add('card__answer--display');
-      buttonShow.classList.toggle('card-display--none');
+      answer[index].classList.toggle('card__answer--display');
+
+      if (buttonShow.innerHTML === 'show answer') {
+        buttonShow.innerHTML = 'hide';
+      } else {
+        buttonShow.innerHTML = 'show answer';
+      }
     });
   });
 }
-
-/* 
-const buttonHide = document.querySelectorAll('[data-js="button-hide"]');
-
-buttonShow.addEventListener('click', () => {
-    answer.classList.add('card__answer--display');
-    buttonShow.classList.add('card-display--none');
-  });
-  
-  buttonHide.addEventListener('click', () => {
-    answer.classList.remove('card__answer--display');
-    buttonShow.classList.remove('card-display--none');
-  }); */
