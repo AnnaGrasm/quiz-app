@@ -1,10 +1,8 @@
 import { bookmarks } from './js/bookmarks.js';
+import { answerButton } from './js/answerButton.js';
 
 bookmarks();
-
-const buttonShow = document.querySelector('[data-js="button-show"]');
-const buttonHide = document.querySelector('[data-js="button-hide"]');
-const answer = document.querySelector('[data-js="text-answer"]');
+answerButton();
 
 const homeIcon = document.querySelector('[data-js="nav__icon-home"]');
 const homeSite = document.querySelector('[data-js="home-js"]');
@@ -17,16 +15,6 @@ const createSite = document.querySelector('[data-js="create-js"]');
 
 const profileIcon = document.querySelector('[data-js="nav__icon-profile"]');
 const profileSite = document.querySelector('[data-js="profile-js"]');
-
-buttonShow.addEventListener('click', () => {
-  answer.classList.add('card__answer--display');
-  buttonShow.classList.add('card-display--none');
-});
-
-buttonHide.addEventListener('click', () => {
-  answer.classList.remove('card__answer--display');
-  buttonShow.classList.remove('card-display--none');
-});
 
 //sections
 homeIcon.addEventListener('click', () => {
