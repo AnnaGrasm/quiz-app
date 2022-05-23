@@ -1,8 +1,7 @@
+import { getElementsAll } from './getElement.js';
+
 export function bookmarks() {
-  // a NodeList with 3 bookmarkButtons:
-  const allBookmarkButtons = document.querySelectorAll(
-    '[data-js="js-bookmark"]'
-  );
+  const allBookmarkButtons = getElementsAll('js-bookmark');
 
   allBookmarkButtons.forEach(bookmarkButton => {
     bookmarkButton.addEventListener('click', () => {
