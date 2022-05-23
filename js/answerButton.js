@@ -1,14 +1,16 @@
-export function answerButton() {
-  const allButtonShow = document.querySelectorAll('[data-js="button-show"]');
+import { getElementsAll } from './getElement.js';
 
-  const answer = document.querySelectorAll('[data-js="text-answer"]');
+export function answerButton() {
+  const allButtonShow = getElementsAll('button-show');
+
+  const answer = getElementsAll('text-answer');
 
   allButtonShow.forEach((buttonShow, index) => {
     buttonShow.addEventListener('click', () => {
       answer[index].classList.toggle('card__answer--display');
 
       if (buttonShow.innerHTML === 'show answer') {
-        buttonShow.innerHTML = 'hide';
+        buttonShow.innerHTML = 'hide answer';
       } else {
         buttonShow.innerHTML = 'show answer';
       }

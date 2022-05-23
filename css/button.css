@@ -1,0 +1,16 @@
+.button {
+  padding: 0.9rem;
+  margin: 1rem;
+  background-color: var(--button-color);
+  text-transform: uppercase;
+  border-radius: 10px;
+  width: auto;
+  align-self: center;
+  border: rgb(6 78 6) solid 2px;
+  color: white;
+}
+
+.button:hover {
+  font-weight: bold;
+  font-size: 0.9rem;
+}

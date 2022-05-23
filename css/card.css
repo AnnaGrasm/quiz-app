@@ -16,25 +16,31 @@
   box-shadow: -1px -1px 14px 0 rgba(0 0 0 /75%);
 }
 
+.card__bookmark-button {
+  background-color: transparent;
+  border: none;
+}
+
+.button-bookmark {
+  position: absolute;
+  top: -15px;
+  right: 0;
+  cursor: pointer;
+  fill: var(--fourth-color);
+}
+
 .card__bookmark-icon {
   width: 4rem;
-  position: absolute;
-  top: -20px;
-  right: 0;
-  filter: invert(70%);
-  cursor: pointer;
+  height: 4rem;
 }
 
 .card__bookmark-icon--active {
-  width: 4rem;
-  position: absolute;
-  top: -20px;
-  right: 0;
   cursor: pointer;
-  filter: invert(1%);
+  fill: var(--primary-color);
 }
 
-.card__heading {
+.card__heading-question,
+.card__heading-answer {
   color: white;
   text-transform: uppercase;
 }
@@ -43,20 +49,6 @@
   text-align: center;
   color: white;
   font-size: 1.2rem;
-}
-
-.card-button {
-  padding: 0.7rem;
-  margin: 1rem;
-  background-color: rgb(122 185 162);
-  text-transform: uppercase;
-  border-radius: 10px;
-}
-
-.card-button:hover {
-  font-weight: bold;
-  font-size: 0.9rem;
-  background-color: rgb(19 130 87);
 }
 
 .card-display--none {
