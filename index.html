@@ -15,112 +15,10 @@
     <!--HOME-->
     <div class="home section--active" data-js="home-js">
       <div class="heading">
-        <h1>Quiz App</h1>
+        <h1 class="heading__content" data-js="heading-content">Quiz App</h1>
       </div>
 
-      <div class="card__main">
-        <section class="card__content">
-          <div class="button-bookmark">
-            <button class="card__bookmark-button" data-js="js-bookmark">
-              <svg
-                class="card__bookmark-icon"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                version="1.1"
-                viewBox="0 0 256 256"
-                xml:space="preserve"
-              >
-                <desc>Created with Fabric.js 1.7.22</desc>
-                <defs></defs>
-                <g transform="translate(128 128) scale(0.72 0.72)" style="">
-                  <g
-                    transform="translate(-175.05 -175.05000000000004) scale(3.89 3.89)"
-                  >
-                    <path
-                      d="M 74.113 0 H 15.886 c -1.105 0 -2 0.895 -2 2 v 86 c 0 0.759 0.43 1.453 1.109 1.791 c 0.282 0.14 0.587 0.209 0.89 0.209 c 0.428 0 0.854 -0.138 1.208 -0.405 l 25.669 -19.432 c 1.324 -1.002 3.152 -1.002 4.476 0 l 25.668 19.432 c 0.606 0.458 1.418 0.533 2.098 0.196 c 0.68 -0.338 1.109 -1.032 1.109 -1.791 V 2 C 76.113 0.895 75.218 0 74.113 0 z"
-                      transform=" matrix(1 0 0 1 0 0) "
-                      stroke-linecap="round"
-                    />
-                  </g>
-                </g>
-              </svg>
-            </button>
-          </div>
-          <h2 class="card__heading-question">Question</h2>
-
-          <p class="card__question">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
-            fugit?
-          </p>
-          <button class="button" data-js="button-show">show answer</button>
-
-          <div class="card-display--none" data-js="text-answer">
-            <h2 class="card__heading-answer">Answer</h2>
-            <p class="card-answer__content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
-              fugit?
-            </p>
-          </div>
-
-          <ul class="card__tags">
-            <li class="card__tags__item">Lorem</li>
-            <li class="card__tags__item">Ipsum</li>
-            <li class="card__tags__item">dolor</li>
-            <li class="card__tags__item">sit</li>
-          </ul>
-        </section>
-
-        <section class="card__content">
-          <div class="button-bookmark">
-            <button class="card__bookmark-button" data-js="js-bookmark">
-              <svg
-                class="card__bookmark-icon"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                version="1.1"
-                viewBox="0 0 256 256"
-                xml:space="preserve"
-              >
-                <desc>Created with Fabric.js 1.7.22</desc>
-                <defs></defs>
-                <g transform="translate(128 128) scale(0.72 0.72)" style="">
-                  <g
-                    transform="translate(-175.05 -175.05000000000004) scale(3.89 3.89)"
-                  >
-                    <path
-                      d="M 74.113 0 H 15.886 c -1.105 0 -2 0.895 -2 2 v 86 c 0 0.759 0.43 1.453 1.109 1.791 c 0.282 0.14 0.587 0.209 0.89 0.209 c 0.428 0 0.854 -0.138 1.208 -0.405 l 25.669 -19.432 c 1.324 -1.002 3.152 -1.002 4.476 0 l 25.668 19.432 c 0.606 0.458 1.418 0.533 2.098 0.196 c 0.68 -0.338 1.109 -1.032 1.109 -1.791 V 2 C 76.113 0.895 75.218 0 74.113 0 z"
-                      transform=" matrix(1 0 0 1 0 0) "
-                      stroke-linecap="round"
-                    />
-                  </g>
-                </g>
-              </svg>
-            </button>
-          </div>
-          <h2 class="card__heading-question">Question</h2>
-
-          <p class="card__question">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
-            fugit?
-          </p>
-          <button class="button" data-js="button-show">show answer</button>
-
-          <div class="card-display--none" data-js="text-answer">
-            <h2 class="card__heading-answer">Answer</h2>
-            <p class="card-answer__content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
-              fugit?
-            </p>
-          </div>
-
-          <ul class="card__tags">
-            <li class="card__tags__item">Lorem</li>
-            <li class="card__tags__item">Ipsum</li>
-            <li class="card__tags__item">dolor</li>
-            <li class="card__tags__item">sit</li>
-          </ul>
-        </section>
-      </div>
+      <section data-js="card-section"></section>
     </div>
     <!--BOOKMARK-->
     <div class="bookmark" data-js="bookmark-js">
@@ -128,55 +26,7 @@
         <h1>Bookmarks</h1>
       </div>
 
-      <section class="card__content">
-        <div class="button-bookmark">
-          <button class="card__bookmark-button" data-js="js-bookmark">
-            <svg
-              class="card__bookmark-icon"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              version="1.1"
-              viewBox="0 0 256 256"
-              xml:space="preserve"
-            >
-              <desc>Created with Fabric.js 1.7.22</desc>
-              <defs></defs>
-              <g transform="translate(128 128) scale(0.72 0.72)" style="">
-                <g
-                  transform="translate(-175.05 -175.05000000000004) scale(3.89 3.89)"
-                >
-                  <path
-                    d="M 74.113 0 H 15.886 c -1.105 0 -2 0.895 -2 2 v 86 c 0 0.759 0.43 1.453 1.109 1.791 c 0.282 0.14 0.587 0.209 0.89 0.209 c 0.428 0 0.854 -0.138 1.208 -0.405 l 25.669 -19.432 c 1.324 -1.002 3.152 -1.002 4.476 0 l 25.668 19.432 c 0.606 0.458 1.418 0.533 2.098 0.196 c 0.68 -0.338 1.109 -1.032 1.109 -1.791 V 2 C 76.113 0.895 75.218 0 74.113 0 z"
-                    transform=" matrix(1 0 0 1 0 0) "
-                    stroke-linecap="round"
-                  />
-                </g>
-              </g>
-            </svg>
-          </button>
-        </div>
-        <h2 class="card__heading-question">Question</h2>
-
-        <p class="card__question">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, fugit?
-        </p>
-        <button class="button" data-js="button-show">show answer</button>
-
-        <div class="card-display--none" data-js="text-answer">
-          <h2 class="card__heading-answer">Answer</h2>
-          <p class="card-answer__content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
-            fugit?
-          </p>
-        </div>
-
-        <ul class="card__tags">
-          <li class="card__tags__item">Lorem</li>
-          <li class="card__tags__item">Ipsum</li>
-          <li class="card__tags__item">dolor</li>
-          <li class="card__tags__item">sit</li>
-        </ul>
-      </section>
+      <section data-js="card-section1"></section>
     </div>
 
     <!--Create-->
@@ -192,28 +42,39 @@
               here you can create a question and the answer
             </h2>
 
-            <form aria-labelledby="headline" class="form__texterea">
-              <div class="form__input">
-                <label for="question-area">Question</label>
-                <textarea
-                  id="question-area"
-                  name="question"
-                  rows="5"
-                  cols="30"
-                  placeholder="question"
-                ></textarea>
-              </div>
-              <div class="form__input">
-                <label for="answer-area">Answer</label>
-                <textarea
-                  id="answer-area"
-                  name="answer"
-                  rows="5"
-                  cols="30"
-                  placeholder="answer"
-                ></textarea>
-              </div>
-              <input type="submit" name="" class="button" id="" />
+            <form
+              aria-labelledby="headline"
+              class="form__texterea"
+              data-js="form"
+              autocomplete="off"
+            >
+              <label for="question-area">Question</label>
+              <textarea
+                id="question-area"
+                name="question"
+                rows="5"
+                cols="30"
+                placeholder="question"
+              ></textarea>
+
+              <label for="answer-area">Answer</label>
+              <textarea
+                id="answer-area"
+                name="answer"
+                rows="5"
+                cols="30"
+                placeholder="answer"
+              ></textarea>
+
+              <label for="tags-area">Tags</label>
+              <input
+                name="tags"
+                type="text"
+                id="tags-input"
+                placeholder="html, css..."
+              />
+
+              <button type="submit" name="" class="button">Create</button>
             </form>
           </div>
         </section>
@@ -251,6 +112,12 @@
                 perspiciatis illum itaque maiores eligendi.
               </p>
             </div>
+            <ul class="card__tags">
+              <li class="card__tags__item">Lorem</li>
+              <li class="card__tags__item">Ipsum</li>
+              <li class="card__tags__item">dolor</li>
+              <li class="card__tags__item">sit</li>
+            </ul>
             <button class="button">chhfs</button>
           </div>
         </section>
@@ -277,7 +144,7 @@
         </svg>
       </button>
 
-      <button class="nav-button">
+      <button class="nav-button" data-js="nav-buttonBookmark">
         <svg
           class="nav-icon"
           data-js="nav__icon-bookmark"

@@ -1,0 +1,14 @@
+.card__bookmark {
+  all: unset;
+  height: 30px;
+  border: 20px solid var(--primary-color);
+  border-bottom: 20px solid transparent;
+  position: absolute;
+  right: 5px;
+  top: -10px;
+}
+
+.card__bookmark--active {
+  border-color: hotpink;
+  border-bottom-color: transparent;
+}

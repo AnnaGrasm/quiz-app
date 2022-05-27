@@ -1,4 +1,4 @@
-.card__main {
+.home {
   margin-bottom: 7rem;
   display: flex;
   flex-direction: column;
@@ -16,31 +16,7 @@
   box-shadow: -1px -1px 14px 0 rgba(0 0 0 /75%);
 }
 
-.card__bookmark-button {
-  background-color: transparent;
-  border: none;
-}
-
-.button-bookmark {
-  position: absolute;
-  top: -15px;
-  right: 0;
-  cursor: pointer;
-  fill: var(--fourth-color);
-}
-
-.card__bookmark-icon {
-  width: 4rem;
-  height: 4rem;
-}
-
-.card__bookmark-icon--active {
-  cursor: pointer;
-  fill: var(--primary-color);
-}
-
-.card__heading-question,
-.card__heading-answer {
+.card__heading {
   color: white;
   text-transform: uppercase;
 }
@@ -51,22 +27,7 @@
   font-size: 1.2rem;
 }
 
-.card-display--none {
-  display: none;
-}
-
-.card__answer--display {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  background-color: var(--fourth-color);
-  color: white;
-  text-align: center;
-  border-radius: 1rem;
-}
-
-.card__tags {
+.card__tag-list[role='list'] {
   padding: 0;
   list-style: none;
   display: flex;
@@ -75,7 +36,7 @@
   justify-content: space-around;
 }
 
-.card__tags__item {
+.card__tag {
   width: 3.5rem;
   height: 2rem;
   display: flex;
